@@ -1,10 +1,10 @@
 # ExpressJS.com
 
-  The site for Express.
+  El sitio para Express.
 
-## Building
+## Construyendo
 
-Setup:
+Instalación:
 
 ```
 $ npm install -g serve
@@ -14,21 +14,21 @@ $ serve .
 $ open http://localhost:3000
 ```
 
-then rebuild changes with:
+Luego reconstruir los cambios con:
 
 ```
 $ make
 ```
 
-## Contributing
+## Contribuir
 
-Markdown files are the authoring / source files that generate HTML files that are the publishing format.  The website is served from the HTML pages in the `gh-pages` branch.  Jade files are used to create a page with appropriate header, footer, and one or more markdown files.  Generally, you shouldn't need to edit Jade files unless you are adding a new page or reorganizing pages.
+Los archivos de Markdown son los archivos fuentes / originales que generan archivos HTML que son el formato de publicación. El sitio web es servido de las páginas HTML en la rama `gh-pages`. Los archivos Jade son usados para crear una página con el header, footer apropiado y uno o más archivos Markdown. Generalmente, no deberías necesitar editar los archivos Jade a menos que estés agregando una nueva página o reorganizando páginas.
 
-  - __Don't__ edit the HTML directly.  Instead, edit the Markdown file(s), then generate the HTML using `make` to view your changes locally.  NOTE: You must delete the existing HTML file so that `make` will regenerate it.  You can also do `make clean` to delete all the HTML files, then run `make` to rebuild the entire site.
-  - In general, PRs should contain both Markdown file(s) and resultant generated HTML file(s).  However, very small PRs or commits can be just the Markdown source, with the understanding the the HTML will be regenerated later to incorporate numerous changes.
-  - To publish a change, you must commit the HTML files.  
+  - __No__ edites el HTML directamente. En vez de eso, edita el(los) archivo(s) Markdown, luego genera los HTML usando `make` para revisar tus cambios localmente. NOTA: Debes borrar el archivo HTML existente de tal forma que `make` lo regenere. También puedes ejecutar `make clean` para borrar todos los archivos HTML, luego ejecuta `make` para reconstruir todo el sitio.  
+  - En general, PRs deben contener tanto el(los) archivo(s) Markdown y el(los) HTML(s) generado(s). Sin embargo, un número muy pequeño de PRs o commits puede únicamente ser el fuente Markdown, con el entendimiento de que el HTML será generado posteriormente para incorporar numerosos cambios.
+  - Para publicar un cambio, debes hacer commit de el(los) archivo(s) HTML(s).
 
-## Showcasing
+## Mostrando tus apps
 
-If you have an app you'd like to showcase on the site, do not just open an issue for it.
-Instead, _open a pull request_ for it.
+Si tienes una app que quisieras mostrar en el sitio, no abras un issue para ello.
+En vez de eso, _abre un pull request_.
